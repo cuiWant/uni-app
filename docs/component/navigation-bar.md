@@ -22,7 +22,7 @@
 |subtitle-color|string||||App 2.6.7+|
 |subtitle-overflow|string||||App 2.6.7+|
 |title-align|string||||App 2.6.7+|
-|background-image|string||||App 2.6.7+|
+|background-image|string|||	支持以下类型： 背景图片路径 - 如"./img/t.png"，仅支持本地文件路径， 相对路径，相对于当前页面的host位置，根据实际标题栏宽高拉伸绘制； 渐变色 - 仅支持线性渐变，两种颜色的渐变，如“linear-gradient(to top, #a80077, #66ff00)”， 其中第一个参数为渐变方向，可取值： "to right"表示从左向右渐变， “to left"表示从右向左渐变， “to bottom"表示从上到下渐变， “to top"表示从下到上渐变， “to bottom right"表示从左上角到右下角， “to top left"表示从右下角到左上角|App 2.6.7+|
 |background-repeat|string||||App 2.6.7+|
 |blur-effect|string||||App 2.6.7+|
 |loading|string|false|否|是否在导航条显示 loading 加载提示|微信基础库 2.9.0|
